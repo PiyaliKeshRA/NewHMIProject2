@@ -136,3 +136,8 @@ Children:
 - File: Report/Report.yaml
 - File: echarts/echarts.yaml
 - File: MQTT_Data/MQTT_Data.yaml
+- Name: Test_SaaS
+  Id: g=21addcdc71744fc1973f078b0babeb34
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
