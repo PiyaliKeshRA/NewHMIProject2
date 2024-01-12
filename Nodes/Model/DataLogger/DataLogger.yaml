@@ -1,0 +1,29 @@
+Name: DataLogger
+Id: g=192babb127442ec3a92d307b6fa4e369
+Type: FolderType
+Children:
+- Name: 'Speed-01'
+  Id: g=468647bcacb681322f00eb7f95b344b2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: 'Speed-02'
+  Id: g=e19ea4c909d175714c302ecfea2108c4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: 'Speed-03'
+  Id: g=feef67c3551b27b5d9b1b9cdef5c2a80
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Set Speed
+  Id: g=bd8a51f3a8546517dbc115338151b124
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Mode
+  Id: g=552ec37ffc0174e9966a0445a18678d7
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

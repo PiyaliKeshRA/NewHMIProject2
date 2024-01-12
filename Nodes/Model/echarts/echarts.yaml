@@ -1,0 +1,78 @@
+Name: echarts
+Id: g=da0562cfc1b43e2f74f4a7ad5d0351f1
+Type: FolderType
+Children:
+- Name: Total good production
+  Id: g=7ff8d95cd34765feaf160c26186e58dd
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Rejection
+  Id: g=0e01414731b79ade65ff28437039a1fd
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Availability
+  Id: g=cc72f996a8fde5a7a8ac0f24d9a2bfd5
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Performance
+  Id: g=2c86d55b60e315f73f0788c4334bc56a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Quality
+  Id: g=ae108962e26b4413822c0e96ea4c2e83
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: OEE
+  Id: g=97774332939d935c491b80b53b67c59e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=0b507caf486733e33c689956e72e14b7
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=af8d7f0da7bb68a129b4d63b54eaaa72
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "{0}*{1}*{2}/10000"
+    - Name: ns=2;Source0
+      Id: g=f821af7d0a1d1d2d5a8fcb901b3e499b
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=c3d4fe4b504ebce827e71839d62cd2fe
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Performance"
+    - Name: ns=2;Source1
+      Id: g=c109d23dc38f147772a0bc086314d976
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=6d400875a3f6721750908aec70c6e40f
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Availability"
+    - Name: ns=2;Source2
+      Id: g=e2dd2a54e2749d9bf4df0fe32fe60e00
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=d9d1cc0c8e977a925726b17052a0149c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Quality"

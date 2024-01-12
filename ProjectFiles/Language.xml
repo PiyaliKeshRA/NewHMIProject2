@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NamespaceUris>
+    <Uri>NewHMIProject2</Uri>
+    <Uri>urn:FTOptix:Core</Uri>
+  </NamespaceUris>
+  <Models>
+    <Model ModelUri="NewHMIProject2">
+      <RequiredModel ModelUri="http://opcfoundation.org/UA/"/>
+      <RequiredModel ModelUri="urn:FTOptix:Core" Version="3.0.0.41"/>
+    </Model>
+  </Models>
+  <Aliases/>
+  <UAVariable NodeId="ns=1;g=544bb668-8221-95b8-9948-491b78ffd7a0" BrowseName="1:LocalizationDictionary1" WriteMask="594038" DataType="i=12" ValueRank="0" ArrayDimensions="0,0" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">ns=2;i=42</Reference>
+    </References>
+  </UAVariable>
+</UANodeSet>

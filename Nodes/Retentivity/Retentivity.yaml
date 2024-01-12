@@ -1,0 +1,112 @@
+Name: Retentivity
+Id: g=bdacd390fab32ea7340a8c72d0022dcd
+Type: RetentivityCategoryFolder
+Children:
+- Name: SecurityRetentivityStorage
+  Id: g=f15a41a5a84b3ce9b2d976c339b360c8
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=3cf2709b51bd0b88fd24fff2e9f698c6
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=1b36c23357a9e947b67b28014ff35ed7
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/NewHMIProject2/Security"
+      Children:
+      - Name: Kind
+        Id: g=5b16346af56925f2cb150f26409a8977
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=d18e2547d4f484eb3f446b7a4bcf4b6a
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=1494ff9b01df33a6a3469ddf4145f4eb
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=3c0016ce2c3aeb3dd46bb6855972f018
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: AlarmsRetentivityStorage
+  Id: g=aed26d78e672a7859c2c54d18016fff6
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=837420736fd6ef2805a15591b16f118e
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=2b2fa6612bc785ba91158784bedc560d
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/NewHMIProject2/Alarms"
+      Children:
+      - Name: Kind
+        Id: g=561c11f5a4534ff9d4cabdee10c87924
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=96500c11c15ab8312f65e968d5987751
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=494c17e2580716273c0b2a50a45498df
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=580d6ed5936b518eb69efa3ddc9aaf77
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: RetentivityStorage2
+  Id: g=39f6104fc6c5626f896e7cfdcf35f58d
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=4d51534816c88b90a2db3e7f3532c0fd
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=10da90fca9128daf0e96e2147c54a3e0
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/NewHMIProject2/Model/echarts"
+      Children:
+      - Name: Kind
+        Id: g=92d73b0f30f5713f3f6fa19e3c3216d6
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=14f0387b0029fe89fd1aadb83fc17d61
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=e7cf63f41b25ddfdb89b3713411a8527
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=4dd8ebd1ec436d0084d0b8472ef8328a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true

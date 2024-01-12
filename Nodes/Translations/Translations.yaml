@@ -1,0 +1,51 @@
+Name: Translations
+Id: g=dc65db9f9db540c890750c728ccc85c6
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=544bb668822195b89948491b78ffd7a0
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [34,4],
+    "Body": [
+     "","en-US","hi-IN","or-IN",
+     "Timestamp","Timestamp","","",
+     "Name","Name","","",
+     "Message","Message","","",
+     "Active","Active","","",
+     "SourceName","Source Variable","","",
+     "Acked","Acked","","",
+     "Severity","Severity","","",
+     "Confirmed","Confirmed","","",
+     "Acknowledge","Acknowledge","","",
+     "Acknowledge All","Acknowledge All","","",
+     "Confirm","Confirm","","",
+     "Confirm All","Confirm All","","",
+     "RecipeControllerRecipeLoaded","Recipe loaded","","",
+     "RecipeControllerCreatedAndSaved","created and saved","","",
+     "RecipeControllerSaved","saved","","",
+     "RecipeControllerDeleted","deleted","","",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","","",
+     "RecipeControllerRecipe","Recipe","","",
+     "RecipeControllerRecipeApplied","Recipe applied","","",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","","",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","","",
+     "RecipesEditorRecipeNotFound","Recipe not found","","",
+     "RecipesEditorNotARecipe","is not a recipe","","",
+     "RecipesEditorStoreOfSchema","Store of schema","","",
+     "RecipesEditorNotSet","is not set","","",
+     "RecipesEditorNotFound","not found","","",
+     "RecipesEditorStore","Store","","",
+     "RecipesEditorNotAStore","is not a store","","",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","","",
+     "Save","Save","","",
+     "Delete","Delete","","",
+     "Load","Load","","",
+     "Apply","Apply","",""
+    ]
+   }

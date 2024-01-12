@@ -1,0 +1,9 @@
+Name: Report
+Id: g=62bc73f073447c70280caa2ab6cee63b
+Type: FolderType
+Children:
+- Name: Emailpath
+  Id: g=bc3064e8bd4adadbbf6dbec8d52fab21
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

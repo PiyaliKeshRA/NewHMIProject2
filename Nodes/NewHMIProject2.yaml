@@ -1,0 +1,90 @@
+Name: NewHMIProject2
+Id: g=845778f7e7dbfe52ef3786b8842aff5c
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=1d879339c61e2798c9161b690e9cede9
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=058be82d29044644e13c63845cfcfed1
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US","hi-IN","or-IN"]
+  - Name: LocaleFallbackList
+    Id: g=b52194eab0abb33555c314b53ef431eb
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=b1f92741b364387cb84b6a935f30d01e
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=c150a24a70fe64a2e7f092265d067471
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject2/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=a6f43cfad0ff57b73f2d0289c77c66f6
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: PasswordPolicy
+  Id: g=c43985426f628bef995323ee352989a5
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=af0311f7ac18195c313fac96f5a0b8a6
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=fa71fb6e4272ef80fa158bf6baf50efa
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=08e391b8edb40ccbec696c856701c246
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=2a0676cb321afa532d7c34f58fda4aaf
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=48657642cfddfa584ed37fd60b0a9bf2
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Id: g=edf9bd4e815bb92ed521d2924f4fa565
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/NewHMIProject2/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Id: g=0dcc95eeec5f9bbc108fb8d460430416
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject2/Recipes/RecipeSchema1/EditModel"

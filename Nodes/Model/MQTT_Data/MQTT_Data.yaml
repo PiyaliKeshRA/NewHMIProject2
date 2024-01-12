@@ -1,0 +1,24 @@
+Name: MQTT Data
+Id: g=bccaba3750cad9b8bb8e19441492689c
+Type: FolderType
+Children:
+- Name: Thank You
+  Id: g=98401573c8290c15d86e952676f94a6b
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Contact info
+  Id: g=7ea1624f3d0792292351c429bd1feca9
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Custom
+  Id: g=89f22bd18d83c9fcba79ccc75dbc9b69
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable1
+  Id: g=80fb57b9a1620b075527614f00d25545
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

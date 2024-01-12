@@ -1,0 +1,42 @@
+Name: RecipeTags
+Id: g=0ee9fe8eb089e0e5c45dfcb0a137f1cb
+Type: FolderType
+Children:
+- Name: INTVar
+  Id: g=8c3136f0ae44ef72dd6a3df124eb42a6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: StringVar
+  Id: g=ede66ab34a642bb1a39c21bdaec3af99
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: AnalogVar
+  Id: g=6112fa1061e4fd1cb134802b3b686473
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=e51556de875863089c5ba0c8569348bd
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=db394f63c068431cf0e0e9716dacf7df
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=e86ce903a5edb961a6110dd9cf6371a6
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+- Name: BoolVar
+  Id: g=5bc1f890bd4985bccf2d0f1b448b4dfc
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

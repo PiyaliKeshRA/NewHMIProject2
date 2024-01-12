@@ -1,0 +1,114 @@
+Name: Recipes
+Id: g=7dc82ad6ec135ef9d8ff73074908b8ca
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=54bee5e4ad176115cd6072a820133716
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Id: g=f4af64f485de18380ef635787b9bdb55
+    Type: BaseObjectType
+    Children:
+    - Name: INTVar
+      Id: g=aaba1d35f2385f5a67c0bf46ffd8aa40
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: StringVar
+      Id: g=549d25f25411301ee5aefdd24438959d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: AnalogVar
+      Id: g=1b9a0f6f76c52e0aac0a8aadeac02620
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BoolVar
+      Id: g=5577ea23d3793f3a096ff1b099a15547
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Class: Reference
+    Target: ns=25;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=60
+    Direction: Forward
+  - Name: Store
+    Id: g=efc235035b5312c953e42f056c1f9f2e
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject2/DataStores/EmbeddedDatabase"
+    Children:
+    - Name: Kind
+      Id: g=0c488677f19099e41c8785a25f5b1f6d
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Id: g=bdd98fd60eec3dddc451311783d46ad2
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject2/Model/RecipeTags"
+    Children:
+    - Name: Kind
+      Id: g=3500a070c68e17632009597a63b8be21
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=2e5d22275f525f14484c93697a7915ce
+    Type: BaseObjectType
+    Children:
+    - Name: INTVar
+      Id: g=f3114591c15c77f2237be09854d21639
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: StringVar
+      Id: g=c4dac9808afa8a5b91f779653f65d586
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: AnalogVar
+      Id: g=bfcb245732f266d7ea67faa757f9d8c9
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BoolVar
+      Id: g=bc506c729100bd837756beb804433cb5
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false

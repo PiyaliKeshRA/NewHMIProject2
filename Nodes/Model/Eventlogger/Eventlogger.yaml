@@ -1,0 +1,60 @@
+Name: Eventlogger
+Id: g=457ea172d4501e3419de32d900188af0
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=fe14d78b365dfcd85e70abced75e9f77
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Id: g=4dc158f3859e35e1d3bbc77184fa7c01
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: AnalogVariable1
+  Id: g=242c8d483085db1dc20054be5e3f9ff1
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=f6a62bcde7b413840db16177c3272ded
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=831bb5dfe767360c8947e76e70b67862
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=6485d413b2fe4e673d59203b6a782a5e
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+- Name: AnalogVariable2
+  Id: g=1865af54ee925d8663aa8fe7380fdafe
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=143bbce1c9c7b544382e7e763b5714c8
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=8c71d2743ac0eb634d77fc8ca33843ee
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=cc0b5dff012caeec0e1d352fafd43646
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
